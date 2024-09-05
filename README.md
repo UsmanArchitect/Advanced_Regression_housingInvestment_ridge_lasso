@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+> Housing Investment Model to determine dependent variables using Ridge and Lasso Advanced Regression
 
 
 ## Table of Contents
@@ -11,26 +11,28 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+1. company has collected a data set from the sale of houses in Australia. 
+2. build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+3. The company wants to know:
+•	Which variables are significant in predicting the price of a house, and
+•	How well those variables describe the price of a house.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+1. Models built using Ridge and Lasso Regression using k-fold grid search CV on training dataset.
+2. Selected Lasso model as the number of dependent variables reduced to 53 as against to Ridge.
+3. Both the models are showing similar results on both train and test dataset.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- library - numpy, pandas
+- library - sklearn
+- library - Matplotlib and Seaborn
+- 
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -42,7 +44,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@usmanArchitect] - feel free to contact me!
 
 
 <!-- Optional -->
